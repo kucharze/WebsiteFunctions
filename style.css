@@ -1,0 +1,80 @@
+.nav {
+  border: solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightgray;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu {
+  border: solid green;
+  font-size: large;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  height: 150px;
+}
+
+.breakfast {
+  border: solid orange;
+  width: 25%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.lunch {
+  border: solid orange;
+  width: 25%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.dinner {
+  border: solid orange;
+  width: 25%;
+  text-align: center;
+  font-size: 20px;
+}
+.desert {
+  border: solid orange;
+  width: 25%;
+  text-align: center;
+  font-size: 20px;
+}
+.menuList {
+  display: flex;
+  justify-content: space-evenly;
+}
+.specialItems {
+  border: solid black;
+  padding-left: 10px;
+  color: aqua;
+  background-color: black;
+}
+.specialDrinks {
+  border: solid blue;
+  background-color: darkgreen;
+  color: yellow;
+  padding-left: 10px;
+}
+.storeLocations {
+  border: solid indigo;
+  color: white;
+  background-color: blue;
+  padding-left: 10px;
+}
+.locations {
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.Specials {
+  font-size: 30px;
+  margin-top: 15px;
+}

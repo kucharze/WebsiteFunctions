@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <h1>The title we definaitly thought of</h1>
+      <h3>Visit a restaraunt</h3>
+      <h3>View our full menu</h3>
+      <h3>Place an order</h3>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRewtLuBA87vIHpnGjl9dxnHrQ1oKKPIDu37w&usqp=CAU"
+        alt="logo"
+        class="logo"
+      />
+    </div>
+    <div class="menu">
+      <h1>The Menu</h1>
+      <p>
+        Come view some of the totally original items on our menu here that we
+        thought up on our own and didn't steal the idea at all:
+      </p>
+      <div class="menuList">
+        <div class="breakfast">
+          <h2>Breakfast</h2>
+          <button onclick="getAnyItem('Breakfast')">View Items</button>
+          <p>item</p>
+          <p>item</p>
+        </div>
+        <div class="lunch">
+          <h2>Lunch</h2>
+          <button class="view" onclick="getAnyItem('lunch')">View Items</button>
+          <p>item</p>
+          <p>item</p>
+        </div>
+        <div class="dinner">
+          <h2>Dinner</h2>
+          <button onclick="getAnyItem('dinner')">View Items</button>
+          <p>item</p>
+          <p>item</p>
+        </div>
+        <div class="desert">
+          <h2>Desert</h2>
+          <button onclick="getAnyItem('desert')">View Items</button>
+          <p>item</p>
+          <p>item</p>
+        </div>
+      </div>
+    </div>
+    <div class="specialItems">
+      <h1>Special Items</h1>
+      <p>Check out our Specials items here:</p>
+      <button class="homework" onclick="showSpecials()">
+        View Special items
+      </button>
+      <div class="Specials"></div>
+    </div>
+    <div class="specialDrinks">
+      <h1>Special Drinks</h1>
+      <p>Check out our Special Drink Menu items here:</p>
+      <button class="homework" onclick="showDrinks()">
+        Show special drinks
+      </button>
+      <div class="drinks"></div>
+    </div>
+    <div class="storeLocations">
+      <h1>Store Locations</h1>
+      <p>We have this many locations in the US:</p>
+      <p>Our restaurants our located in the following cities:</p>
+      <button onclick="showLocations()">Show locations</button>
+      <div class="locations"></div>
+    </div>
+    <script src="app.js" async defer></script>
+  </body>
+</html>
