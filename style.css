@@ -72,9 +72,17 @@
 .locations {
   font-size: 30px;
   margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .Specials {
   font-size: 30px;
   margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.drinks {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
