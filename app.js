@@ -65,7 +65,7 @@ const showDrinks = () => {
   console.log(specialDrinks);
   let locations = document.querySelector(".drinks");
   locations.innerHTML =
-    specialDrinks.captainMorgan.name + " " + specialDrinks.budLight.name;
+    specialDrinks.captainMorgan.name + ",  " + specialDrinks.budLight.name;
 };
 
 const showSpecials = () => {
